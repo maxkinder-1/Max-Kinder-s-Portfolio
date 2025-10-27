@@ -8,13 +8,13 @@ permalink: /
   <img src="{{ site.baseurl }}/assets/images/Headshot.jpg" alt="Kasper Atkinson" class="profile-image">
 </div>
 
-Heyo! I’m Kasper.
+Hi! I’m Max.
 
-I’m a learner. Every time I approach an obstacle, something I don’t quite understand, it excites me. I become motivated by the pursuit of the unknown. Because it’s difficult, and I find the struggle rewarding.
+I am and always have been curious about how the world worked and will work in the future. This curiousity has driven me to develop a broad set of intrests and is why I study engineering.
 
-That’s why I am an engineer. It’s also why I’m particularly interested in aerospace. I search for boundaries to break and new ideas to form. I hope to be on the cutting edge of the unknown.
+I am particularly interested in multidisplinary problem solving. I find problems that involve bringing together different areas and information particularly interesting. 
 
-At Cornell’s Design Build Fly, I’ve had three years of experience as a member, subteam lead, and now full-lead, working through every part of the design cycle. From the time rules come out in August, to our compeition in April, I am non-stop at work: ideating, redesigning, improvising. Everything always breaks the first time around. Then the second. Then, if you’re unlucky, the third. But I couldn’t imagine anything different. Never do I learn so much in such a short time, and never is it as rewarding.
+I have found sustainability problems to be a particularly interesting design space for bringing together multiple disciplines and the opprotunities to use knowledge from the past on modern problems. This intrest led me to help found CSalt and serve as its president for the past two years. In that role I have facilitated our different subteams working together and combining there distinct work and have tried to bring in creative and unique solutions to the rapidly developing field of wave energy.
 
 <div style="height:40px;"></div>
 

@@ -16,7 +16,7 @@ permalink: /coursework/
 ## Sophomore Year
 
 **Summer 2025**
--**MAE 2030:** Dynamics
+- **MAE 2030:** Dynamics
 
 **Spring 2025**
 - **PHYS 2214:** Oscillations, Waves, and Quantum Mechanics

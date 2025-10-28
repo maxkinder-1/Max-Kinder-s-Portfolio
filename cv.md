@@ -18,6 +18,7 @@ permalink: /cv/
     -	Engaged in conversations with investors, founders, and experts in a variety of fields including artificial intelligence, technology, medicine, and energy.
     -	Analyzed multiple investment opportunities ranging from early growth stage companies to public companies pivoting their growth model.
 
+
   - **Formlabs - Manufacturing Intern**  
     July, 2024 - August, 2024  
     - Ran quality control tests on the newest line of 3D printers for this spinout from MIT’s Center for Bits and Atoms research lab.

@@ -39,7 +39,7 @@ permalink: /cv/
   - **CSalt**:
   
     *Founder and President*
-    - •	Founded and launched an engineering club focused on developing wave-powered desalination technology for large-scale sustainable drinking water solutions.
+    - Founded and launched an engineering club focused on developing wave-powered desalination technology for large-scale sustainable drinking water solutions.
     - Lead 51-member team competing in Department of Energy’s Marine Energy Collegiate Competition.
     - Awarded $15,000 of funding from the Department of Energy and won national award for our design.
     - Work closely with advising professor, PhD candidate staff, and the SEA lab at Cornell.
@@ -48,7 +48,7 @@ permalink: /cv/
    
     *Member of the Hull Subteam*  
     - Key contributor on 30-member engineering team building a solar powered boat.
-    - •	Focused on construction of the hull. Helped develop a new method of hull construction. Adapted our previous hull to fit the current needs of the other sub teams without compromising the hulls effectiveness.
+    - Focused on construction of the hull and helped develop a new method of hull construction. Adapted our previous hull to fit the current needs of the other sub teams without compromising the hulls effectiveness.
  
 
   ---

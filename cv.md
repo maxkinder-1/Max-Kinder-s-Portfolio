@@ -35,36 +35,26 @@ permalink: /cv/
 
 ## Organization and Leadership Experience
 
-  - **Cornell Design Build Fly**:
+  - **CSalt**:
   
-    *Full-Team Lead*
-    - Directed all engineering and administrative decisions across four subteams for aircraft development with $35k budget.
-    - Co-authored 60-page AIAA technical report, documenting mission-centered design, analysis, fabrication and testing.
-    - Ran 40-person team through 10-month competition cycle: exploration, detailed design, manufacturing, testing.
-
+    *Founder and President*
+    - •	Founded and launched an engineering club focused on developing wave-powered desalination technology for large-scale sustainable drinking water solutions.
+    - Lead 51-member team competing in Department of Energy’s Marine Energy Collegiate Competition.
+    - Awarded $15,000 of funding from the Department of Energy and won national award for our design.
+    - Work closely with advising professor, PhD candidate staff, and the SEA lab at Cornell.
     
-    *Propulsion Subteam Lead*    
-    - Designed and implemented program to iteratively assess various propulsion and electronic system configurations. 
-    - Led 6-person subteam: delegated, tracked, and supervised tasks in weekly meetings. 
-    - Presented and directed subteam through 3 critical design reviews to justify design and component decisions. 
-    
-    *Member of the Propulsion Subteam* 
-    - Planned and fabricated the electronics integration piece, justified design in 60-page competition report scoring 21st.
-    - Led propeller static thrust tests, ensuring flight function on runway line in Wichita, Kansas 2024 competition.
-
-
-  - **C-Salt**:  
-  *Member of the Mechanical Subteam*  
-    - Co-founded wave-energy student team; grew to 20 members competing in DOE’s Marine Energy Collegiate Contest.
-    - Prepared comprehensive CADs of high-pressure water piston compressor for ocean-water desalination in Guam.
+    - **CU Solar Boat**:  
+  *Member of the Hull Subteam*  
+    - Key contributor on 30-member engineering team building a solar powered boat.
+    - •	Focused on construction of the hull. Helped develop a new method of hull construction. Adapted our previous hull to fit the current needs of the other sub teams without compromising the hulls effectiveness.
  
 
   ---
 
 ## Skills
-  - Programming: Python, MATLAB, Java
-  - Software: SolidWorks, Fusion360, ANSYS Fluent, XFLR5, XFoil
-  - Manufacturing: Machine-Shop Trained, 3D Printing
+  - Programming: Python, MATLAB
+  - Software: Fusion360, SolidWorks, ChatGPT
+  - Manufacturing: Machine-Shop Trained, 3D Printing, Laser Cutting
 
   <div class="resume-download">
     <a href="{{ site.baseurl }}\assets\files\KasperAtkinson_CV.pdf" class="download-button" download>

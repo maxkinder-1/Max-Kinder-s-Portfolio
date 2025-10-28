@@ -59,7 +59,7 @@ permalink: /cv/
   - Manufacturing: Machine-Shop Trained, 3D Printing, Laser Cutting
 
   <div class="resume-download">
-    <a href="{{ site.baseurl }}\assets\files\Max Kinder Resume, 2025 Fall.pdf" class="download-button" download>
+    <a href="{{ site.baseurl }}\assets\files\Max_Kinder_Resume_2025_Fall.pdf" class="download-button" download>
         Download Resume (PDF)
     </a>
   </div>

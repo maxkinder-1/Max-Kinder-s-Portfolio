@@ -38,15 +38,15 @@ permalink: /coursework/
 **Spring 2024**
 - **ENGRD 2020:** Statics and Mechanics of Solids
 - **PHYS 1110:** Intro to Experimental Physics
-- **GERST 1210:** Exploring German Contexts I
-- **MATH 2930:** Differential Equations for Engineers
-- **PHYS 2213:** Physics II: Electromagnetism
+- **ARKEO 2640:** Introduction to Ancient Medicine
+- **MATH 1920:** Multivariable Calculus For Engineers
+- **CS 1112:** Introduction to Computing
 
 **Fall 2023**
 - **CHEM 2090:** Engineering General Chemistry
-- **GERST 1170:** FWS: Marx, Nietzsche, Freud
-- **ENGRI 1270:** Intro to Entrepreneurship for Engineers
-- **MATH 1920:** Multivariable Calculus for Engineers
+- **CLASS 1531:** FWS: Greek Myth
+- **ENGRI 1140:** Materials: The Future of Energy
+- **MATH 1910:** Calculus for Engineers
 - **ENGRG 1050:** Engineering Seminar
 
 

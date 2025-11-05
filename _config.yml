@@ -3,7 +3,7 @@ title: Max Kinder - Engineering Portfolio
 email: max.kinder2004@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A brief description of your portfolio and your skills.
-baseurl: "/Kasper-Atkinson-Portfolio" # the subpath of your site, e.g. /blog. For GitHub Pages user sites, this is often blank.
+baseurl: "/Max-Kinder-s-Portfolio" # the subpath of your site, e.g. /blog. For GitHub Pages user sites, this is often blank.
 url: "https://ubilot3000.github.io" # the base hostname & protocol for your site, e.g. http://example.com. For GitHub Pages, it will be like https://username.github.io
 
 # Author/Social

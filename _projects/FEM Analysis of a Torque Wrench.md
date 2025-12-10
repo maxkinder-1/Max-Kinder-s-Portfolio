@@ -1,21 +1,21 @@
 ---
 layout: project
-title: "FEA Wrench Design"
-subtitle: "Just keep swimming..."
-date: 2025-12-05
+title: "FEM Wrench Design"
+subtitle: "Part of Mechanics of Engineering Materials"
+date: 2025-12-10
 image: /assets/images/wec_rendering.PNG
 tags: [ANSYS, Design]
 ---
 
 ### Summary
-The final project in the MAE 3270: Mechanics of Materials course was to identify a wrench design and material that could meet a series of safety factor constraints, including yield strength, fracture toughness, and cyclic loading. After chosing a design, students had to CAD the model and test its performance in ANSYS Static Structural. Comparing FEA results to simplified hand-calculations, students got a better understanding of where the assumptions made in simplified equations were valid or not.
-
+The final project in the MAE 3270: Mechanics of Materials course was to identify and analyze a wrench design and material so that it could meet a series of safety factor constraints, including yield strength, fracture toughness, and cyclic loading. At first this analysis was performed using beam analysis and once an approximate solution was found it was tested and refined using FEM analysis in ANSYS Static Structural. 
 
 ### Identifying Design Range
 Safety factor 
-- $$X_0$$ = 4 for yield or brittle failure, depending on the material.
-- $$X_K$$ = 2 for crack growth with an assumed 0.04 in crach length.
-- $$X_S$$ = 1.5 for fatigue stress at 1,000,000 cycles.
+- $$X_0$$ >= 4 for yield or brittle failure, depending on the material.
+- $$X_K$$ >= 2 for crack growth with an assumed 0.04 in crach length.
+- $$X_S$$ >= 1.5 for fatigue stress at 1,000,000 cycles.
+- 
 
 ```matlab
 % --- Ti-6Al-4V ---

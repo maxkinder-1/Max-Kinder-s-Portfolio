@@ -15,86 +15,69 @@ Safety factor
 - $$X_0$$ >= 4 for yield or brittle failure, depending on the material.
 - $$X_K$$ >= 2 for crack growth with an assumed 0.04 in crach length.
 - $$X_S$$ >= 1.5 for fatigue stress at 1,000,000 cycles.
-- 
 
 ```matlab
-% --- Ti-6Al-4V ---
-E        = 16.3e6;   % Young's modulus (psi)
-nu       = 0.332;   % Poisson's ratio (not used directly here)
-su       = 114e3;  % tensile (or yield) strength (psi)
-KIC      = 94.2e3;   % fracture toughness (psi*sqrt(in))
-sfatigue = 88.9e3;  % fatigue strength for 10^6 cycles (psi)
-a0       = 0.04;   % assumed crack depth (in)
-Y        = 1.12;   % geometry factor for surface crack
+M = 600; % max torque (in-lbf)
+L = 16; % length from drive to where load applied (inches)
+h = 0.50; % width
+b = 0.80; % thickness
+c = 1.0; % distance from center of drive to center of strain gauge
+E = 11.13E6; % Young's modulus (psi)
+nu = 0.33; % Poisson's ratio
+su = 143.5E3; % tensile strength use yield or ultimate depending on material (psi)
+KIC = 81.9E3; % fracture toughness (psi sqrt(in))
+sfatigue = 90.e3; % fatigue strength from Granta for 10^6 cycles
+name = 'Ti-12Mo'; % material name
 
+%Stress and deflection analysis
+%Calculate load point diflection
+load = M/L %calculate applied load (lbf)
+I = ((h^3)*b)/12 %calculate rectangluar inertia
+lpd = (load*(L^3))/(3*E*I) %calculate load point diflection
 
-% Safety factor requirements
-Xo = 4.0;   % strength safety factor
-XK = 2.0;   % fracture (K) safety factor
-XS = 1.5;   % fatigue safety factor
+%Calculate max normal stress
+mns = M*(h/2)/I %calculate max normal stress
 
-%% ---- Design variable ranges ----
-L = M / F;
-fprintf("Wrench Length: %.2f in\n", L);
-h_vec = linspace(0.25, 4, 5000);
-b_vec = linspace(0.25, 4, 1000);
+%Calculate safety factor for strength
+sfs = su/mns %calculate safety factor for strength
 
-nh = numel(h_vec);
-nb = numel(b_vec);
+%Calculate safety factor for crack growth
+Ki = 1.12*mns*sqrt(pi*0.04) %calculate stress intensity factor
+sfcg = KIC/Ki %calculate safety factor for crack growth
 
-% Logical array of acceptable designs
-ok = false(nh, nb);
+%Calculate safety factor for fatigue
+ans = (mns-mns)/2 %calculate mean stress per loading
+ampns = mns-ans %calculate amplitude of stress per loading
+ss = sqrt((ans+ampns)*ampns)
+sff = sfatigue/ss
 
-% Optional: store SFs and output for plotting / inspection
-SF_strength = zeros(nh, nb);
-SF_crack    = zeros(nh, nb);
-SF_fatigue  = zeros(nh, nb);
-output_mVV  = zeros(nh, nb);
+%Calculate strain at guage
+gM = load*(L-c) %calculate the moment at the guage
+gmns = gM*(h/2)/I %calculate the normal stress at guage
+strain = (gmns/E) %calculate strain at guage
 
-%% ---- Sweep over h, b ----
+%Calculate output of the guage
+output = 1.013*strain*1000 %calculate the output of the strain guage (Guage factor was calculated from given values)
 
-% End load P that gives torque M = P*L
-P       = M / L;
-M_fixed = M;             % max bending moment at drive (for failure)
-M_gauge = P * (L - c);   % bending moment at gauge (for output)
-
-for ih = 1:nh
-    h = h_vec(ih);
-    for ib = 1:nb
-        b = b_vec(ib);
-
-        % Section properties
-        I = b * h^3 / 12;
-
-        % ---- Stresses at fixed end (for failure checks) ----
-        sigma_max = 6 * M_fixed / (b * h^2);  % psi
-
-        % Strength safety factor
-        SFs = su / sigma_max;
-
-        % Fracture safety factor
-        KI  = Y * sigma_max * sqrt(pi * a0);  % psi*sqrt(in)
-        SFk = KIC / KI;
-
-        % Fatigue safety factor (fully reversed)
-        SFf = sfatigue / sigma_max;
-
-        % ---- Gauge strain and output (at gauge location) ----
-        sigma_g = 6 * M_gauge / (b * h^2);  % psi at gauge
-        eps_g   = sigma_g / E;              % strain at gauge
-        out     = 1e3 * eps_g;              % mV/V for half bridge with GF ≈ 2
-
-        SF_strength(ih, ib) = SFs;
-        SF_crack(ih, ib) = SFk;
-        SF_fatigue(ih, ib) = SFf;
-        output_mVV(ih, ib) = out;
-
-        % ---- Acceptable design check ----
-        ok(ih, ib) = (SFs >= Xo) && ...
-            (SFk >= XK) && ...
-            (SFf >= XS) && ...
-            (out >= 1.0);   % >= 1.0 mV/V
-    end
+%Check if the material passes the requirements
+if output >= 1
+   disp("passes")
+else
+   disp("fails")
+end
+if sfs <= 4
+   disp("fails")
+else
+   disp("passes")
+end
+if sfcg <= 2
+   disp("fails")
+else
+   disp("passes")
+end
+if sfs <= 1.5
+   disp("fails")
+else
 end
 
 

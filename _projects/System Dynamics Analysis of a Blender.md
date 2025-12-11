@@ -13,7 +13,11 @@ The final project in the MAE 3260: System Dynamics course was to analyze how a d
 
 ### Our Analysis
 
-https://youtu.be/FDkYN33d2iA 
+ <div class="resume-download">
+    <a href="{{ site.baseurl }}\assets\files\Max_Kinder_Resume_2025_Fall.pdf" class="download-button" download>
+        Download Resume (PDF)
+    </a>
+  </div>
 
 This video was my group's submission for the project due to time constraints on the video length. We had to simplify much of our analysis, particularly our explanation of how the different parts of the design connect together in the fluid mechanical sense. Additionally we had to cut material talking about the atomization of the water more in depth, more subtle aspects of the design that contributed to the fluid mechanical efficiency and an in depth explanation of the assumptions and simplifications involved with each equation and step we presented in the video.
 

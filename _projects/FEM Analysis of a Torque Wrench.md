@@ -3,7 +3,7 @@ layout: project
 title: "FEM Wrench Design"
 subtitle: "Part of Mechanics of Engineering Materials"
 date: 2025-12-10
-image: /assets/images/wec_rendering.PNG
+image: /assets/images/Displacement.Mat.Final.Design.png
 tags: [ANSYS, Design]
 ---
 

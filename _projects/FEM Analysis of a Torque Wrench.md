@@ -85,7 +85,7 @@ end
 
 ### CAD
 
-
+<img src="{{ site.baseurl }}/assets/images/Screenshot 2025-12-10 203732.png" alt="CAD" class="project-image" style="width:100%;">
 
 ### Material
 
@@ -98,4 +98,5 @@ The material used was a Titanium alloy which includes molybdenum. It was chosen 
 <img src="{{ site.baseurl }}/assets/images/MaximumNormalStress.Mat.Final.Design.png" alt="Normal.Stress" class="project-image" style="width:100%;">
 <img src="{{ site.baseurl }}/assets/images/Displacement.Mat.Final.Design.png" alt="Displacement" class="project-image" style="width:100%;">
 <img src="{{ site.baseurl }}/assets/images/StrainGuageLocation.Mat.Final.Design.png" alt="Strain.Guage" class="project-image" style="width:100%;">
+
 

@@ -3,7 +3,7 @@ layout: project
 title: "System Dynamics Analysis of a Blender"
 subtitle: "Part of System Dynamics"
 date: 2025-12-10
-image: /assets/images/wec_rendering.PNG
+image: /assets/images/Blender.avif
 tags: [ANSYS, Design]
 ---
 

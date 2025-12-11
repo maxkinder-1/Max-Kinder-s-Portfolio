@@ -92,4 +92,6 @@ end
 The material used was a Titanium alloy which includes molybdenum. It was chosen due to its high tensile strength, fracture toughness and fatigue strength. In addition to these strengths it has a relatively low elastic modulus allowing it to reach the strain requirement.
 
 ### FEM
-
+<div class="image-wrapper-large">
+  <img src="{{ site.baseurl }}\assets\images\BoundaryConditions.Mat.Final.Design.png" alt="ramp-actuator" class="project-image" style="width:100%;">
+</div>

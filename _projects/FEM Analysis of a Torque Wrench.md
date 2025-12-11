@@ -93,5 +93,5 @@ The material used was a Titanium alloy which includes molybdenum. It was chosen 
 
 ### FEM
 <div class="image-wrapper-large">
-  <img src="{{ site.baseurl }}\assets\images\BoundaryConditions.Mat.Final.Design.png" alt="ramp-actuator" class="project-image" style="width:100%;">
+  <img src="{{ site.baseurl }}\assets\images\BoundaryConditions.Mat.Final.Design.png" alt="Boundary_Conditions" class="project-image" style="width:100%;">
 </div>

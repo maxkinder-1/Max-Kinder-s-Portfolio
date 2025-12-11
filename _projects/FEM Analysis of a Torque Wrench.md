@@ -101,10 +101,10 @@ The material used was a Titanium alloy which includes molybdenum. It was chosen 
 
 ### FEM Results
 
-Maximum Normal Stress: 62,633 psi
-Load Point Diflection: 0.633 in
-Strain at Strain Gauge: 0.00147 in/in
-Torque Wrench Sensitivity: 1.489 mV/V
+- Maximum Normal Stress: 62,633 psi
+- Load Point Diflection: 0.633 in
+- Strain at Strain Gauge: 0.00147 in/in
+- Torque Wrench Sensitivity: 1.489 mV/V
 
 ### Strain Gauge
 I selected a half bridge strain gauge set up and the wrench is thick enough to accomidate this set up.

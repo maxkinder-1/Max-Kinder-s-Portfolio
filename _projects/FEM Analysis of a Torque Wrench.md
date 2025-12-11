@@ -94,4 +94,4 @@ The material used was a Titanium alloy which includes molybdenum. It was chosen 
 ### FEM
   <img src="{{ site.baseurl }}\assets\images\BoundaryConditions.Mat.Final.Design.png" alt="Boundary_Conditions" class="project-image" style="width:100%;">
   <img src="{{ site.baseurl }}\assets\images\NormalStrain.Mat.Final.Design.png" alt="Normal.Strain" class="project-image" style="width:100%;">
-<img src="{{ site.baseurl }}/assets/images/static_margin_configurations_2.jpg" alt="static-margin" class="project-image" style="width:75%;">
+<img src="{{ site.baseurl }}/assets/images/MaximumPrincipleStress.Mat.Final.Design.png" alt="Principle.Stress" class="project-image" style="width:100%;">

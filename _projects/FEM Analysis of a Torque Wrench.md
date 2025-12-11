@@ -95,3 +95,6 @@ The material used was a Titanium alloy which includes molybdenum. It was chosen 
 <div class="image-wrapper-large">
   <img src="{{ site.baseurl }}\assets\images\BoundaryConditions.Mat.Final.Design.png" alt="Boundary_Conditions" class="project-image" style="width:100%;">
 </div>
+<div class="image-wrapper-large">
+  <img src="{{ site.baseurl }}\assets\images\NormalStrain.Mat.Final.Design.png" alt="Normal.Strain" class="project-image" style="width:100%;">
+</div>

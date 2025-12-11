@@ -14,13 +14,10 @@ The final project in the MAE 3260: System Dynamics course was to analyze how a d
 ### Our Analysis
 
  <div class="resume-download">
-    <a href="{{ site.baseurl }}\assets\files\Max_Kinder_Resume_2025_Fall.pdf" class="download-button" download>
-        Download Resume (PDF)
+    <a href="{{ site.baseurl }}\assets\files\System Dynamics Analysis of a Blender.md" class="download-button" download>
+        Download Paper (PDF)
     </a>
   </div>
 
-This video was my group's submission for the project due to time constraints on the video length. We had to simplify much of our analysis, particularly our explanation of how the different parts of the design connect together in the fluid mechanical sense. Additionally we had to cut material talking about the atomization of the water more in depth, more subtle aspects of the design that contributed to the fluid mechanical efficiency and an in depth explanation of the assumptions and simplifications involved with each equation and step we presented in the video.
+This paper is my group's submission comparing the system dynamics performance of a cheap versus an expensive blender. I specifically focused on the cheap blender aspect looking at how its internals worked. This helped to develop an idea of how its different modes were achieved and ultimately making a block diagram for the system.
 
-### My Role
-
-I led the analysis of the air flow into the system looking at how it helped with the cooling and all the assumptions involved with its governing equations and how those assumptions break down or remain accurate at various parts of our system. I also looked at which simplifications we could use in our analysis of the flow into the system including simplifying to ignore viscous effects for the air flow into the system. I also looked at how the base and splash guard were designed to help contribute to the fluid mechanical efficiency of the system. Due to the nature of the siphon I decided to consider the flow around the siphon as a vortex and for any analysis really close to the siphon I utilized the boundary layer equations. Both of these solutions are not perfect fits as the vortex simplification makes the problem practically 2D which is not what the focus of the design in this section is but is the best frame of analysis I had studied at that point. For the boundary layer all of our boundary layer analysis so far had been on straight walls so many of them break down in the context of the siphon.

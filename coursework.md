@@ -6,6 +6,15 @@ permalink: /coursework/
 
 ## Coming Up...
 
+- **MAE 3780** Mechatronics
+- **MAE 3240** Heat Transfer
+- **MAE 4610** Entrepreneurship for Engineers
+- **CEE 3610** Introduction to Transport Engineering
+- **ARKEO 4644** Globalism and Collapse in the late Bronze Age World
+
+## Junior Year
+
+**Fall 2025**
 - **MAE 3230:** Introductory Fluid Mechanics
 - **MAE 3270:** Mechanics of Engineering Materials
 - **MAE 3260:** System Dynamics

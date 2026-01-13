@@ -3,7 +3,7 @@ layout: project
 title: "Fluid Analysis of a Humidifier"
 subtitle: "Part of Introductory Fluid Mechanics"
 date: 2025-12-08
-image: /assets/images/wec_rendering.PNG
+image: /assets/images/humidifier.JPG
 tags: [ANSYS, Design]
 ---
 

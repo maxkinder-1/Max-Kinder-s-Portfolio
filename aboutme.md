@@ -17,5 +17,3 @@ I have found sustainability problems to be a particularly interesting design spa
 
 <div style="height:40px;"></div>
 
-
-<!--  <img src="{{ site.baseurl }}\assets\images\plane_running.JPG" alt="plane-running" class="project-image" style="width:100%;">

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Class Projects
+permalink: /classprojects/
 ---
 
 Here are some of the projects I've worked on! Click on any project to learn more.

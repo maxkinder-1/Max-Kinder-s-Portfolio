@@ -15,7 +15,7 @@ In this assignment I learned about the basics of utalizing heat transfer concept
 This knowledge will be useful to me by helping me understand these fundimentals better and how to apply them to systems that involve heat transfer. It'll be particularly useful for designing and analzing simple systems involving heat transfer like any system involoving a computer chip or solar radiation.
 
  <div class="resume-download">
-    <a href="{{ site.baseurl }}\assets\files\System Dynamics Analysis of a Blender.md" class="download-button" download>
+    <a href="{{ site.baseurl }}\assets\files\Heat Transfer Analysis.md" class="download-button" download>
         Download Paper (PDF)
     </a>
   </div>

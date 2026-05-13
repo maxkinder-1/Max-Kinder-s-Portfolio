@@ -12,7 +12,7 @@ tags: [Analysis]
 A project in the MAE 3780: Our goal was to design and build a robot within a series of constraints to collect cubes in a square arena trying to out compete another robot designed by a different group. 
 ### My work on the Project
 
-In this assignment I did a lot of our groups circuit design and analysis which involved working with various sensors such as qti sensors and color sensors. I also incorporating complex timing to insure our motors and servos remained insync allowing our robot to perform complex menuvers along an exact path.
+In this assignment I did a lot of our groups circuit design and analysis which involved working with various sensors such as qti sensors and color sensors. I also incorporating complex timing to insure our motors and servos remained insync allowing our robot to perform complex menuvers like lifting and lowering barriers along an exact path.
 I also worked with my group members on designing and implementing a logical system to insure that our robot would adjjsut its timings and paths based on the readings of our qti sensors giving our robot some flexability.
 
 

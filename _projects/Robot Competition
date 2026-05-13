@@ -1,0 +1,23 @@
+---
+layout: project
+title: "Robot Competition"
+subtitle: "Part of Mechatronics Class"
+date: 2025-3-10
+image: /assets/images/Displacement.Mat.Final.Design.png
+tags: [Analysis]
+---
+
+### Summary
+
+A project in the MAE 3240: Heat Transfer course was to write a few paragraphs explaining what I learned in a particular homework asignment. 
+
+### Heat Transfer Learning Analysis
+
+In this assignment I learned about the basics of utalizing heat transfer concepts to understand dominant heat transfer mode of different systems while heat transfer is happening. Additionally I learned about how to apply the fundimental heat transfer equation to systems with heat generation, heat radiation, heat convection, and heat conduction.
+This knowledge will be useful to me by helping me understand these fundimentals better and how to apply them to systems that involve heat transfer. It'll be particularly useful for designing and analzing simple systems involving heat transfer like any system involoving a computer chip or solar radiation.
+
+ <div class="resume-download">
+    <a href="{{ site.baseurl }}\assets\files\Heat Transfer Analysis.md" class="download-button" download>
+        Download Paper (PDF)
+    </a>
+  </div>

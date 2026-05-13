@@ -12,8 +12,8 @@ tags: [Analysis]
 A project in the MAE 3780: Our goal was to design and build a robot within a series of constraints to collect cubes in a square arena trying to out compete another robot designed by a different group. 
 ### Heat Transfer Learning Analysis
 
-In this assignment I learned about the basics of utalizing heat transfer concepts to understand dominant heat transfer mode of different systems while heat transfer is happening. Additionally I learned about how to apply the fundimental heat transfer equation to systems with heat generation, heat radiation, heat convection, and heat conduction.
-This knowledge will be useful to me by helping me understand these fundimentals better and how to apply them to systems that involve heat transfer. It'll be particularly useful for designing and analzing simple systems involving heat transfer like any system involoving a computer chip or solar radiation.
+In this assignment I did a lot of our groups circuit design and analysis which involved working with various sensors such as qti sensors and color sensors. I also incorporating complex timing to insure our motors and servos remained insync allowing our robot to perform complex menuvers along an exact path.
+I also worked with my group members on designing and implementing a logical system to insure that our robot would adjjsut its timings and paths based on the readings of our qti sensors giving our robot some flexability.
 
  <div class="resume-download">
     <a href="{{ site.baseurl }}\assets\files\Heat Transfer Analysis.md" class="download-button" download>
